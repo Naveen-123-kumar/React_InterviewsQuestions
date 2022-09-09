@@ -14,16 +14,19 @@ export default function Memo() {
   const calculation = useMemo(() => {
     return expensiveCalculation(count);
   }, [count]);
-  
-console.log('hi')
+  const handlechange=()=>{
+    setCount((count)=>count+1)
+  }
+
   return (
     <>
       <div>
       <button onClick={()=>{setShow(!show)}}>{show ? "you clicked me":"plz click"}</button>
 
        <h2>Expensive submittion  of number</h2>
+       {calculation}
         <h1>Count: {count}</h1>
-        <button onClick={setCount((count)=>count+1)}>Inc+</button>
+        <button onClick={handlechange}>Inc+</button>
       </div>
     </>
   );

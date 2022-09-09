@@ -1,3 +1,5 @@
+// What is Context api?
+// The React Context API is a way for a React app to effectively produce global variables that can be passed around.In this process first we mention createContext after that we use provider and consumer.
 import React, { createContext, useContext } from "react";
 let name='Anu_Naveen';
 const Create_data=createContext()

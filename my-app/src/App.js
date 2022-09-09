@@ -8,6 +8,8 @@ import Routing from './Day2/RoutingEmplementation/Routing';
 import { Axios } from './Day3/AxiosCompont/Axios';
 import Context from './Day4/ContextApi/Context';
 import UseRef from './Day4/UseRef/UseRef';
+import Reducermethod from './Day3/ReducerComponent/Reducermethod';
+import Memo from './Day3/UseMemoComp/Memo';
 function App() {
   return (
     <div className="App">
@@ -22,6 +24,8 @@ function App() {
       <Axios/> */}
       {/* <Context/> */}
       <UseRef/>
+      {/* <Reducermethod/> */}
+      <Memo/>
     </div>
   );
 }
