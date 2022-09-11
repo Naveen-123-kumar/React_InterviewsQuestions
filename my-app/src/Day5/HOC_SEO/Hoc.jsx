@@ -15,7 +15,7 @@ export default function Hoc() {
       <h1>
         SEO stands for search engine optimization.It help us to improve quality
         and quantity of website traffic to website or page from search
-        engine.Yes,It is true that react js supports SEO support.React helps
+        engine.Yes,It is true that react js supports SEO.React helps to
         build a very user-friendly UI that is also valuable by SEO
       </h1>
       <br />

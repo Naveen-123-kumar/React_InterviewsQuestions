@@ -19,9 +19,6 @@ export default function React_life_cycle(){
     <br /><br />
     <p>unmounting,there are one phases-----</p>
     <p>✔componentWillUnmount()</p>
-
-
-
     </>
   )
 }

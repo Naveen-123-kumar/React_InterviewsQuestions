@@ -1,4 +1,5 @@
 import React, { useMemo, useState } from "react";
+
 const expensiveCalculation = (num) => {
   console.log("Calculating...");
   for (let i = 0; i < 1000000000; i++) {

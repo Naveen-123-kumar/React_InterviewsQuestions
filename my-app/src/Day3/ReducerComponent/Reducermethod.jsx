@@ -2,21 +2,21 @@ import React,{useReducer} from 'react'
 
 const initialState=0;
 
-const reducer=(state,action)=>{
+const reducer=(state1,action)=>{
     if(action.type1==='Increment1'){
-        return state+1
+        return state1+1
     }
     if(action.type1==='Increment2'){
-        return state+2
+        return state1+2
     }
     if(action.type1==='Decrement1'){
-        return state-1
+        return state1-1
     }
     if(action.type1==='Decrement2'){
-        return state-2
+        return state1-2
     }
     else{
-        return state;
+        return state1;
 
     }
 }

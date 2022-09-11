@@ -10,6 +10,10 @@ import Context from './Day4/ContextApi/Context';
 import UseRef from './Day4/UseRef/UseRef';
 import Reducermethod from './Day3/ReducerComponent/Reducermethod';
 import Memo from './Day3/UseMemoComp/Memo';
+import HOCode from './Day5/HOC_SEO/HOCode';
+import UseEffect from './Day5/HOC_SEO/UseEffect';
+import Useeffect from './Day3/UseEffectComp/Useeffect';
+import LifeCycle from './Day4/React_Life_Cycle/LifeCycle';
 function App() {
   return (
     <div className="App">
@@ -23,9 +27,13 @@ function App() {
       </BrowserRouter>
       <Axios/> */}
       {/* <Context/> */}
-      <UseRef/>
+      {/* <UseRef/> */}
       {/* <Reducermethod/> */}
-      <Memo/>
+      {/* <Memo/> */}
+      {/* <HOCode/> */}
+      {/* <UseEffect/> */}
+      {/* <Useeffect/> */}
+      <LifeCycle newName='Anu'/>
     </div>
   );
 }
